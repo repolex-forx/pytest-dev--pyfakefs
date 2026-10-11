@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/pytest-dev/pyfakefs/commit/796c48eb7830e3ee7fb57eb368dc115c1f3436ba",
       "git:hexsha": "796c48eb7830e3ee7fb57eb368dc115c1f3436ba",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-11T03:26:58.947712+00:00"
     },
     {
       "@id": "https://repolex.ai/r/pytest-dev/pyfakefs/commit/851ef850b03056e21cdaf334b8621b20585f7615",
