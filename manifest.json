@@ -306,7 +306,9 @@
           "githubUrl": "https://github.com/executablebooks/MyST-Parser",
           "source": "build_file:pyproject.toml"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/b3be3a3ed57b156839435408ea0fe5aede0109ed/chunk-001.nq.gz",
+      "dep": "dep/b3be3a3ed57b156839435408ea0fe5aede0109ed.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
