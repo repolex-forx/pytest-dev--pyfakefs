@@ -270,6 +270,42 @@
       ],
       "ast": [
         "aggregate/ast/b3be3a3ed57b156839435408ea0fe5aede0109ed/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/b3be3a3ed57b156839435408ea0fe5aede0109ed.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "sphinx",
+          "ecosystem": "PYPI",
+          "version": "7.0.0",
+          "githubOrg": "sphinx-doc",
+          "githubRepo": "sphinx",
+          "githubCommit": "d568b2f4f7cca743fcbf70814d15602d8129b790",
+          "githubTag": "v7.0.0",
+          "githubUrl": "https://github.com/sphinx-doc/sphinx",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "furo",
+          "ecosystem": "PYPI",
+          "version": "2025.12.19",
+          "githubOrg": "pradyunsg",
+          "githubRepo": "furo",
+          "githubCommit": "dd9e9f920494f24b9b8dd954ec9d07e0b9d12817",
+          "githubTag": "2025.12.19",
+          "githubUrl": "https://github.com/pradyunsg/furo",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "myst-parser",
+          "ecosystem": "PYPI",
+          "version": "5.0.0",
+          "githubOrg": "executablebooks",
+          "githubRepo": "MyST-Parser",
+          "githubCommit": "a139a1fd47277c5adcb7ec033e9f4ad52e6c779e",
+          "githubTag": "v5.0.0",
+          "githubUrl": "https://github.com/executablebooks/MyST-Parser",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],

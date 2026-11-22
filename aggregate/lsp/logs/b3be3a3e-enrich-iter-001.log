@@ -1,0 +1,35 @@
+[2026-11-22T03:45:13Z] === ENRICH ITERATION 1 START | repo=pytest-dev/pyfakefs sha=b3be3a3e ===
+[2026-11-22T03:45:13Z] [iter=1] PHASE START: enrich repo=pytest-dev/pyfakefs sha=b3be3a3e runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b3be3a3e-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b3be3a3ed57b156839435408ea0fe5aede0109ed.nq.gz
+[2026-11-22T03:45:16Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T03:45:29Z] [iter=1] AST store loaded triples=1435216 load_secs=13 mem_mb=906 MB
+[2026-11-22T03:45:29Z] [iter=1] Step 2: Finding LSP targets mem_mb=906 MB
+[2026-11-22T03:45:33Z] [iter=1] LSP targets found call_sites=14424 imports=424 extends=170 implements=0 secs=4
+[2026-11-22T03:45:36Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=906 MB
+[2026-11-22T03:45:42Z] [iter=1] Position index built positions=98699 nodes_with_types=126407 secs=6 mem_mb=906 MB
+[2026-11-22T03:45:42Z] [iter=1] Step 3: Starting LSP resolution mem_mb=906 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T03:45:42Z] [iter=1] Resolving target type target_type=call_site count=14424
+[2026-11-22T04:13:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.0 files_done=1 resolved=4481 errors=0 current=pyfakefs/tests/fake_filesystem_test.py
+[2026-11-22T04:21:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.7 files_done=2 resolved=6337 errors=0 current=pyfakefs/fake_file.py
+[2026-11-22T04:23:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.9 files_done=3 resolved=6609 errors=0 current=pyfakefs/pytest_tests/pytest_fixture_test.py
+[2026-11-22T04:25:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.2 files_done=6 resolved=7332 errors=0 current=pyfakefs/tests/fake_pathlib_test.py
+[2026-11-22T04:31:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=46.6 files_done=7 resolved=8989 errors=0 current=pyfakefs/tests/fake_filesystem_vs_real_test.py
+[2026-11-22T04:33:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=48.3 files_done=8 resolved=9292 errors=0 current=pyfakefs/fake_filesystem.py
+[2026-11-22T04:37:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=52.2 files_done=9 resolved=10035 errors=0 current=pyfakefs/fake_filesystem_unittest.py
+[2026-11-22T04:38:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=53.1 files_done=10 resolved=10253 errors=0 current=pyfakefs/tests/fake_stat_time_test.py
+[2026-11-22T04:39:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=54.4 files_done=11 resolved=10522 errors=0 current=pyfakefs/fake_pathlib.py
+[2026-11-22T04:40:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=55.3 files_done=12 resolved=10753 errors=0 current=pyfakefs/tests/example_test.py
+[2026-11-22T04:57:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=72.7 files_done=14 resolved=12476 errors=0 current=pyfakefs/tests/skipped_pathlib.py
+[2026-11-22T04:58:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=73.5 files_done=17 resolved=12635 errors=0 current=pyfakefs/helpers.py
+[2026-11-22T05:00:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=74.8 files_done=19 resolved=13180 errors=0 current=pyfakefs/pytest_tests/pytest_path_hint_test.py
+[2026-11-22T05:01:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=76.3 files_done=21 resolved=13443 errors=0 current=pyfakefs/fake_filesystem_shutil.py
+[2026-11-22T05:02:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=77.0 files_done=27 resolved=13619 errors=0 current=pyfakefs/tests/patched_packages_test.py
+[2026-11-22T05:02:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=77.5 files_done=32 resolved=13739 errors=0 current=pyfakefs/tests/import_as_example.py
+[2026-11-22T05:03:08Z] [iter=1] Target type resolved target_type=call_site resolved=14007 errors=0 secs=4646 mem_mb=906 MB
+[2026-11-22T05:03:08Z] [iter=1] Resolving target type target_type=import_statement count=424
+[2026-11-22T05:03:13Z] [iter=1] Target type resolved target_type=import_statement resolved=393 errors=0 secs=5 mem_mb=906 MB
+[2026-11-22T05:03:13Z] [iter=1] Resolving target type target_type=extends_clause count=170
+[2026-11-22T05:03:13Z] [iter=1] HEARTBEAT target_type=extends_clause elapsed_min=78.0 files_done=0 resolved=0 errors=0 current=pyfakefs/tests/fake_os_test.py
+[2026-11-22T05:03:16Z] [iter=1] Target type resolved target_type=extends_clause resolved=170 errors=0 secs=3 mem_mb=906 MB
+[2026-11-22T05:48:45Z] [iter=1] Step 5: Writing final enrichment file triples=198538
+[2026-11-22T05:48:47Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/b3be3a3ed57b156839435408ea0fe5aede0109ed.nq.gz size_kb=4024
+[2026-11-22T05:48:47Z] [iter=1] PHASE END: enrich elapsed_s=7414 elapsed_min=123.6 total_triples=198538
