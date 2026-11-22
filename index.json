@@ -3,6 +3,11 @@
   "repo": "pyfakefs",
   "versions": [
     {
+      "commit": "b3be3a3ed57b156839435408ea0fe5aede0109ed",
+      "tag": "v6.2.0",
+      "parsed_at": "2026-11-22T05:51:47.309909+00:00"
+    },
+    {
       "commit": "796c48eb7830e3ee7fb57eb368dc115c1f3436ba",
       "tag": "",
       "parsed_at": "2026-10-11T03:26:58.948585+00:00"
